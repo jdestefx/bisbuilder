@@ -1,0 +1,4 @@
+.eqitem-box                      {padding:3px 5px 3px 5px; position:absolute; display:none; min-width:300px; z-index:2000;  color:white; background-color: rgba(0,0,0,0.75);border:1px solid black; box-shadow:0px 0px 3px 2px white}
+.eqitem-box .saves               {max-width:435px; }
+.eqitem-box .mln > div           {margin-right:5px}
+.eqitem-box .stats               {max-width:425px}

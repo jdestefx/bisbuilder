@@ -1,0 +1,72 @@
+* { font-family:tahoma}
+body {
+   font: 12px tahoma;
+   display: flex;
+   flex-direction: row;
+}
+
+span.link {
+   color:blue;
+   cursor:pointer;
+}
+
+.inventory {
+   position:relative;
+   width: 276px;
+   height: 555px;
+}
+
+.inventory .inv-slot {
+   cursor:pointer;
+   display:flex;
+   width:64px;
+   height:64px;
+   flex-direction: column;
+   position:absolute;
+   top:0px;
+   left:0px;
+   background-color:rgba(0,0,0,0.5);
+}
+
+.inventory .inv-slot.focus {
+   background-color:deepskyblue;
+}
+
+.inventory .inv-slot .slot-content {
+   padding:3px;
+   flex-grow:1;
+   background-repeat: no-repeat;
+   background-position: 11px;
+   font-size:10px;
+}
+
+.inv-slot.ear1{top:0px;left:0px}
+.inv-slot.head{top:0px;left:70px;}
+.inv-slot.face{top:0px;left:140px;}
+.inv-slot.ear2{top:0px;left:210px;}
+.inv-slot.chest{top:70px;left:0px;}
+.inv-slot.neck{top:70px;left:210px;}
+.inv-slot.arms{top:140px;left:0px;}
+.inv-slot.back{top:140px;left:210px;}
+.inv-slot.waist{top:210px;left:0px;}
+.inv-slot.shoulders{top:210px;left:210px;}
+.inv-slot.wrist1{top:280px;left:0px;}
+.inv-slot.wrist2{top:280px;left:210px;}
+.inv-slot.legs{top:350px;left:0px;}
+.inv-slot.hands{top:350px;left:210px;}
+.inv-slot.feet{top:350px;left:70px;}
+.inv-slot.ring1{top:420px;left:70px;}
+.inv-slot.ring2{top:420px;left:140px;}
+.inv-slot.primary{top:490px;left:0px;}
+.inv-slot.secondary{top:490px;left:70px;}
+.inv-slot.range{top:490px;left:140px;}
+.inv-slot.ammo{top:490px;left:210px;}
+
+.picker {flex-grow:1; max-width:250px}
+
+.picker input, .picker select {width:100%; padding:3px}
+
+.picker .label {}
+.picker > div {padding:3px}
+.picker > .group {margin-left:5px}
+.picker > .group > div {padding:3px}
