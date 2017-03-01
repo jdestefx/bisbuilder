@@ -6,7 +6,7 @@
       <script src="js/db.js"></script>
       <script src="js/item.js"></script>
 
-      <script src="bisbuilder.js"></script>
+      <script src="js/bisbuilder.js"></script>
 
       <link type="text/css" rel="stylesheet" href="css/bisbuilder.css">
       <link type="text/css" rel="stylesheet" href="css/eqitem.css">
